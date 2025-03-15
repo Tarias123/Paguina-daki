@@ -1,0 +1,268 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.img-logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+
+.container {
+    width: 100%;
+    padding: auto;
+    background-color: #1053f3;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    align-items: center;
+    height: 70px;
+    padding: 20px 0;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeInDown 1s ease-out forwards;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-main ul.nav-list {
+    flex: 1;
+    padding-left: 100px;
+}
+
+#ingresar {
+    padding-top: 15px;
+}
+
+#crear {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Animación para que los elementos aparezcan desde los lados */
+.principal {
+    background-color: #1053f3;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-principal {
+    color: white;
+    padding-left: 140px;
+    padding-top: 40px;
+    width: 600px;
+    text-align: left;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slideInLeft 1s ease-out 0.5s forwards;
+}
+
+.text-principal h1 {
+    font-size: 80px;
+}
+
+.text-principal p {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.text-principal a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #c7f2ab;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.img-prin {
+    position: absolute;
+    left: 900px;
+    top: 40px;
+    height: 650px;
+    width: 1200px;
+    transform: rotate(-2deg);
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slideInRight 1s ease-out 1s forwards;
+}
+
+.segundo-cuadro {
+    display: flex;
+    height: 400px;
+    width: auto;
+    text-align: left;
+    background-color: #c7f2ab;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out 1.5s forwards;
+}
+
+.segundo-cuadro p {
+    font-size: 50px;
+    padding-top: 45px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.soluciones {
+    text-align: center;
+    height: 400px;
+    padding-left: 500px;
+    padding-right: 500px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out 2s forwards;
+}
+
+.soluciones h5 {
+    padding-top: 90px;
+    text-align: center;
+    color: #5887e8;
+    font-size: 20px;
+}
+
+.soluciones h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.soluciones p {
+    font-size: 20px;
+    text-align: center;
+    color: #8d8f90;
+}
+
+#languageToggle {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+#languageToggle:hover {
+    background-color: #c7f2ab;
+}
+
+.ventajas {
+    max-width: 600px;
+    margin-left: 90px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out 2.5s forwards;
+}
+
+.ventaja-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.ventaja-header {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.ventaja-header:hover {
+    background: #f1f1f1;
+}
+
+.ventaja-content {
+    display: none;
+    padding: 15px;
+    text-align: left;
+    background: white;
+}
+
+.ventaja-content p {
+    margin: 0;
+}
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
