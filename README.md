@@ -20,8 +20,8 @@ Solo una ventaja puede estar abierta a la vez para mantener un diseño limpio.
 
 📸 Capturas de Pantalla
 ![image](https://github.com/user-attachments/assets/cb24e6f9-69b7-4e92-a541-fff835422736)
-![image](https://github.com/user-attachments/assets/b6d682ee-0f42-4bf2-91a3-813ace70c4f8)
-![image](https://github.com/user-attachments/assets/65658643-7cc5-449e-a567-482f407b300e)
+![image](https://github.com/user-attachments/assets/5de5cc53-c9b7-42f4-90ec-284708814349)
+![image](https://github.com/user-attachments/assets/4e0a467c-0ae0-4940-a04b-b1ff50e34b88)
 
 
 📂 Estructura del Proyecto
